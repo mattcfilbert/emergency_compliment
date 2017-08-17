@@ -2,7 +2,7 @@
 'use strict'
 
 angular
-.module('compliments', [
+.module('emergencyComp', [
   'ui.router',
   'ngResource'
 ])
