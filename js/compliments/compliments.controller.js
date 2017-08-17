@@ -1,10 +1,10 @@
 'use strict'
 
 (function() {
-  var app = angular.module('compliments')
-  app.controller('complimentsController', ComplimentsController)
+  var app = angular.module('angularComp')
+  app.controller('mainController', MainController)
 
-  function ComplimentsController() {
+  function MainController() {
     var vm = this;
   }
 })();
